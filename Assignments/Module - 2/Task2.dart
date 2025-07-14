@@ -1,3 +1,10 @@
+/*
+Task 2:
+Create a program that converts temperature from Celsius to Fahrenheit and vice versa.
+Implement functions to handle both conversions and let the user choose the conversion
+type.
+ */
+
 import 'dart:io';
 
 void main()
@@ -7,8 +14,7 @@ void main()
   print("Choose conversion 1.Celsius to Fahrenheit  2.Fahrenheit to Celsius");
   select = int.parse(stdin.readLineSync().toString());
 
-  switch(select)
-  {
+  switch(select) {
     case 1:
       print("Enter Celsius Temperature: ");
       c = int.parse(stdin.readLineSync().toString());
