@@ -2,14 +2,14 @@
 Task 8:
 Implement a basic calculator that performs addition, subtraction, multiplication, or division
 based on the user’s choice.
- */
+
+*/
 
 import 'dart:io';
 
 void main()
 {
   var num;
-
 
   print("Enter your choice. 1.Addition\t 2.Substraction\t 3.Multiplication\t 4.Division");
   num = int.parse(stdin.readLineSync().toString());
